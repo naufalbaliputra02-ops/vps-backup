@@ -1,0 +1,3 @@
+0 9 * * * /root/notify_expiration.sh | mail -s "VPS Expiration Notice" krisssakti027@gmail.com 2>/dev/null || echo "Notification: VPS expiring soon"
+0 9 * * * /root/notify_expiration.sh
+0 2 * * * /root/backup_full.sh >> /var/log/backup.log 2>&1

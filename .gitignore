@@ -1,0 +1,6 @@
+# Exclude sensitive files
+ssh/
+*.key
+*.pem
+*.p12
+id_*
